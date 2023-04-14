@@ -29,6 +29,5 @@ export class PokeApiService {
     return this.http
       .get<any>(url)
       .pipe(map((res) => res))
-
   }
 }
